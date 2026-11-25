@@ -1,0 +1,7 @@
+bin/
+dist/
+build/deps/
+build/paquets/
+parametres.ini
+capteurs.txt
+*.exe

@@ -1,0 +1,35 @@
+MONITEUR CPU / GPU
+=================
+
+Application creee par Claude (Anthropic), avec Claude Code, a partir des idees de Ciwil25.
+Page du projet : https://github.com/Ciwil25/moniteur-cpu-gpu
+
+Affiche en direct la temperature, l'utilisation et la frequence du processeur et de la carte graphique,
+la RAM, l'heure et les FPS du jeu en cours. Pense pour un petit ecran 640x480, mais s'adapte a toute taille.
+
+LANCER
+------
+1. Gardez tous les fichiers de ce dossier ensemble (Moniteur.exe et PresentMon.exe).
+2. Double-cliquez sur Moniteur.exe et acceptez la demande d'autorisation de Windows.
+   Si Windows affiche "Windows a protege votre ordinateur" : Informations complementaires > Executer quand meme.
+3. Au premier lancement, si le pilote gratuit PawnIO manque, le moniteur propose de l'installer.
+   Il sert a lire la temperature et la frequence du CPU. Sans lui, tout le reste fonctionne.
+
+UTILISER
+--------
+Une icone violette apparait a cote de l'horloge (eventuellement derriere la petite fleche ^) :
+- clic gauche  : afficher / masquer le moniteur
+- clic droit   : Parametres (ecran, plein ecran ou fenetre, taille, fond d'ecran, seuil d'alerte),
+                 Lancer au demarrage de Windows, Quitter
+
+Les reglages sont enregistres dans parametres.ini (cree a cote de Moniteur.exe).
+
+DESINSTALLER
+------------
+Clic droit sur l'icone : decochez "Lancer au demarrage de Windows", puis Quitter.
+Supprimez ensuite ce dossier.
+
+LICENCES
+--------
+Voir le dossier LICENCES. Code du projet sous licence MIT.
+Utilise LibreHardwareMonitor (MPL-2.0) et PresentMon d'Intel (MIT).
