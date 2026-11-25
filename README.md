@@ -99,6 +99,20 @@ L'affichage s'adapte à **n'importe quelle résolution** (800x480, 1024x600, 192
 - Les **FPS** n'apparaissent que pour un **jeu** au premier plan : navigateurs, Discord, Spotify, lanceurs (Steam, EA app,
   Epic…) et le bureau sont ignorés.
 
+## Modifier l'appli avec Claude
+
+Pas besoin de savoir programmer : l'application a été entièrement écrite par Claude, et elle peut être modifiée de la même façon.
+
+1. Sur cette page GitHub, cliquez sur le bouton vert **Code → Download ZIP**, puis extrayez le zip.
+   Il faut **tout le dossier** (le code, les scripts `build` et le fichier `CLAUDE.md`), pas seulement un fichier.
+2. Ouvrez ce dossier dans **[Claude Code](https://claude.com/claude-code)** (application Claude, onglet *Code*, ou en ligne de commande).
+3. Demandez ce que vous voulez, en français, par exemple :
+   - « Ajoute la vitesse des ventilateurs de la carte graphique »
+   - « Crée un nouveau fond avec une plage et un coucher de soleil »
+   - « Adapte l'affichage pour mon écran en 800x480 »
+4. Claude lit automatiquement le fichier **`CLAUDE.md`** : il y trouve le rôle de chaque fichier, la façon de compiler
+   et les pièges déjà rencontrés. Il peut ensuite recompiler `Moniteur.exe` avec les scripts du dossier `build`.
+
 ## Compiler soi-même
 
 Aucun outil à installer : le compilateur C# est fourni avec Windows.
