@@ -14,6 +14,7 @@ Petit tableau de bord pour un **écran secondaire** (pensé pour un écran **640
 <p align="center">
   <img src="docs/photo.jpg" alt="Le moniteur en vrai, sur un petit écran 640x480 dans un boîtier rétro" width="480">
   <br><em>En vrai, sur un petit écran 640x480 dans un boîtier rétro (fond « Palmiers »)</em>
+  <br>Boîtier imprimé en 3D : <a href="https://makerworld.com/fr/models/801209-mini-retro-screen-mini-retro-screen">Mini Retro Screen sur MakerWorld</a>
 </p>
 
 ![Capture du moniteur](docs/capture.png)
@@ -82,6 +83,12 @@ seuil_alerte = 85
 ```
 
 L'affichage s'adapte à **n'importe quelle résolution** (800x480, 1024x600, 1920x1080…) en gardant ses proportions.
+
+## Matériel
+
+- Un petit écran secondaire branché au PC (testé avec un écran **640x480**).
+- Le boîtier rétro de la photo : modèle 3D **[Mini Retro Screen](https://makerworld.com/fr/models/801209-mini-retro-screen-mini-retro-screen)**
+  sur MakerWorld (modèle de son auteur, non inclus dans ce projet).
 
 ## Bon à savoir
 
