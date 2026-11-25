@@ -11,6 +11,11 @@ Petit tableau de bord pour un **écran secondaire** (pensé pour un écran **640
 - **Alerte** : la carte passe au rouge et « respire » au-dessus d'un seuil (85 °C par défaut)
 - **6 fonds d'écran** rétro années 80 au choix (ou aucun)
 
+<p align="center">
+  <img src="docs/photo.jpg" alt="Le moniteur en vrai, sur un petit écran 640x480 dans un boîtier rétro" width="480">
+  <br><em>En vrai, sur un petit écran 640x480 dans un boîtier rétro (fond « Palmiers »)</em>
+</p>
+
 ![Capture du moniteur](docs/capture.png)
 
 *(capture en mode démo : surchauffe du CPU simulée)*
